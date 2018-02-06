@@ -1,2 +1,1 @@
-# Bio
-Bio portfolio for Rich Budek
+# Homework_2
