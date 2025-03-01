@@ -1,0 +1,20 @@
+version: "3.7"
+networks:
+  main:
+    driver: bridge
+    ipam:
+      config:
+        - subnet: 172.20.0.0/24
+      driver: default
+services:
+  bio:
+    container_name: bio
+    build: 
+      context: .
+      dockerfile: Dockerfile-bio
+    image: richbu/img-bio
+    networks:
+      main:
+        ipv4_address: 172.20.0.9   
+    ports:
+      - "80:80"
