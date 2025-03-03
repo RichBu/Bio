@@ -235,6 +235,24 @@
                                     margin-right: 25px;
                                 }
                                 /* contact page */
+
+                                .banner-text {
+                                    font-size: 22px;
+                                    font-family: Georgia, Times, "Times New Roman", serif;
+                                    font-weight: 700;
+                                    padding-bottom: 17px;
+                                    position: absolute;
+                                    bottom: 20px;
+                                    width: 100%;
+                                    padding: 12px;
+                                    margin-bottom: 0;
+                                    font-weight: 300;
+                                    line-height: 24px;
+                                    color: #fff;
+                                    text-align: center;
+                                    background: #4aaaa5;
+                                    border-bottom: 0;
+                                }
                                 
                                 #contact-form ul {
                                     margin-bottom: 20px;
