@@ -51,6 +51,16 @@ h3 {
     font-size: 22px;
 }
 
+h4 {
+    font-family: Georgia, Times, "Times New Roman", serif;
+    font-weight: 700;
+    font-size: 18px;
+    color: #4aaaa5;
+    text-align: left;
+    padding: 0px;
+    line-height: 25px;
+}
+
 h5 {
     font-family: Georgia, Times, "Times New Roman", serif;
     font-weight: 700;

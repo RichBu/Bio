@@ -1,2 +1,3 @@
 FROM nginx:alpine
+# copy from current folder to dockers nginx folder
 COPY . /usr/share/nginx/html/
