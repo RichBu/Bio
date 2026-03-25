@@ -324,10 +324,11 @@ input[type=submit] {
 .bttn_port {
     padding-left: 10px;
     padding-right: 10px;
-    padding-bottom: 30px;
-    padding-top: 0px;
+    /*padding-bottom: 30px;*/
+    padding-top: 17px;
     width: 180px;
     height: 100px;
+    display: inline-block;
     /*
     display: grid;
     place-items: center;  /* vertical alignment 
