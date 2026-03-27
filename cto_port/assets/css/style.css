@@ -157,6 +157,12 @@ nav a {
 nav a:first-child {
     border-left: 0 none;
 }
+
+.navsel {
+    color: #811FF7;
+}
+
+
 /* footer */
 
 footer {
@@ -179,6 +185,40 @@ footer {
     margin-bottom: 20px;
     background: #fff;
     border: 1px solid #811FF7;
+}
+
+.ctosidebar {
+    float: right;
+    width: 100%;
+    max-width: 175px;
+    padding: 30px;
+    margin-bottom: 20px;
+    background: #130C3B;
+    border: 1px solid #811FF7;
+}
+
+#quicklinks {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    line-height: 34px;
+    color: #777;
+    background: #130C3B;    
+}
+
+#quicklinks h4{
+    font-family: 'Montserrat', sans-serif;
+    line-height: 34px;
+    padding-bottom: 10px;
+    color: #777;
+    background: #130C3B;    
+}
+
+#quicklinks a {
+    display: block;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    line-height: 34px;
+    color: #708AF3;
 }
 
 h3,
@@ -213,6 +253,32 @@ h3,
     margin: 0 0 40px;
     background: #fff;
     border: 1px solid #811FF7;
+}
+
+.maincto-section {
+    float: left;
+    width: 100%;
+    max-width: 650px;
+    padding: 5px;
+    margin: 0 0 40px;
+    background: #130C3B;
+    border: 1px solid #811FF7;
+}
+
+.fullcto-section {
+    float: left;
+    width: 100%;
+    /*
+    max-width: 800px;
+    */
+    padding: 5px;
+    margin: 0 0 40px;
+    background: #130C3B;
+    border: 1px solid #811FF7;
+}
+
+.fullcto-section h2 {
+    color: #777;
 }
 
 .home-section {
