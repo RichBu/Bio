@@ -277,7 +277,7 @@ h3,
     border: 1px solid #811FF7;
 }
 
-.fullcto-section h2 {
+.fullcto-section h2, h5 {
     color: #777;
 }
 
