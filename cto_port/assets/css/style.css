@@ -23,6 +23,11 @@ body {
     clear: both;
 }
 
+.container-examples {
+    padding-top: 100px;
+}
+
+
 h1,
 h2,
 h3,
@@ -89,6 +94,17 @@ hr {
     z-index: 99;
     width: 100%;
     margin: 0 0 30px;
+    overflow: auto;
+    color: #FFFFFF;
+    background: #130C3B;
+    border-bottom: 4px solid #811FF7;
+}
+
+#masthead-ex {
+    position: fixed;
+    z-index: 99;
+    width: 100%;
+    margin: 0 0 5px;
     overflow: auto;
     color: #FFFFFF;
     background: #130C3B;
@@ -315,6 +331,82 @@ h3,
     font-size: 16px;
 }
 
+
+/* section for the menu items at teh top */
+.fullcto-section-examples {
+    /*  fullcto-section with no border  */
+    float: left;
+    width: 100%;
+    padding: 5px 5px 0px 5px;
+    margin: 0 0 0px;
+    margin-bottom: 30px;;
+    background: #130C3B;
+    /*
+    border: 1px solid #811FF7;
+    */
+}
+
+.fullcto-section-examples h2, h5 {
+    color: #777;
+}
+
+.fullcto-section-examples h3, h4, h5 {
+    display: block;
+    font-family: 'Montserrat', sans-serif;
+    /* line-height: 34px; */
+    color: #708AF3;
+    border-bottom: 0px solid #811FF7;
+    margin-bottom: 5px;
+    padding-bottom: 0px;;
+}
+.fullcto-section-examples h3 {
+    font-size: 18px;
+}
+
+.fullcto-section-examples h4 {
+    margin-top: 3px;
+    font-size: 16px;
+}
+
+
+
+#examplelinks {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    line-height: 20px;
+    color: #777;
+    background: #130C3B;    
+    display: flex;
+}
+
+#examplelinks h4{
+    font-family: 'Montserrat', sans-serif;
+    line-height: 24px;
+    /*
+    padding-bottom: 10px;
+    */
+    color: #777;
+    background: #130C3B;    
+}
+
+#examplelinks a {
+    display: block;      /* Allows width/padding to apply */
+    width: 100px;        /* Forces text wrap at this width */
+    text-align: center;  /* Centers the lines of text */
+    text-decoration: none;
+    line-height: 1.0;    /* Tightens vertical space between lines */  
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    line-height: 18px;
+    color: #708AF3;
+    border-left: 2px solid #811FF7;
+}
+
+.examplelinks-rt {
+    border-right: 2px solid #811FF7;
+}
+
+/* section for the summary at the bottom */
 .fullcto-section-sel {
     color:#0E456B;
     background-color: #0E456B;
