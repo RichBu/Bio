@@ -140,6 +140,14 @@ hr {
     margin: 5px;
 }
 
+.bttn_small_text {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 10px;
+}
+
+
 .bttn_click2 {
     float: left;
     width: 250px;
