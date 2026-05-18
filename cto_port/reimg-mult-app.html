@@ -91,6 +91,148 @@
             <h2 style="line-height: 115%;">
                 Summary of Video:  <br/><br/>
             </h2>            
+            <div style="display: flex; gap: 20px;">
+                <div style="flex: 1;">
+                    <img src="assets/images/cto_reimg_mult_app-01.png" alt="Reimagine-multiple apps on server" width="640" height="360">
+                </div>
+                <div style="flex: 1;">
+                    <h5>
+                        Running multiple apps in the cloud
+                    </h5>
+                </div>
+            </div>
+            <hr />
+            <div style="display: flex; gap: 20px;">
+                <div style="flex: 1;">
+                    <img src="assets/images/cto_reimg_mult_app-02.png" alt="Reimagine-multiple apps on server" width="640" height="360">
+                </div>
+                <div style="flex: 1;">
+                    <h5>
+                        Problem Statement
+                    </h5>
+                </div>
+            </div>
+            <hr />
+            <div style="display: flex; gap: 20px;">
+                <div style="flex: 1;">
+                    <img src="assets/images/cto_reimg_mult_app-03.png" alt="Reimagine-multiple apps on server" width="640" height="360">
+                </div>
+                <div style="flex: 1;">
+                    <h5>
+                        Had a bunch of proof of concept apps to run <br />
+                        Some apps were old versions of languages and packages <br />
+                        Mixed languages <br />
+                        Don’t want to create multiple EC2 instances <br />
+                        Don’t want to upgrade old apps <br />
+                        DEFINITELY do not want to rewrite as one big app <br />
+                    </h5>
+                </div>
+            </div>
+            <hr />
+            <div style="display: flex; gap: 20px;">
+                <div style="flex: 1;">
+                    <img src="assets/images/cto_reimg_mult_app-04.png" alt="Reimagine-multiple apps on server" width="640" height="360">
+                </div>
+                <div style="flex: 1;">
+                    <h5>
+                        Reimagine
+                    </h5>
+                </div>
+            </div>
+            <hr />
+            <div style="display: flex; gap: 20px;">
+                <div style="flex: 1;">
+                    <img src="assets/images/cto_reimg_mult_app-05.png" alt="Reimagine-multiple apps on server" width="640" height="360">
+                </div>
+                <div style="flex: 1;">
+                    <h5>
+                        Reimagine - Design <br />
+                        Multiple apps all in their own docker container <br />
+                        All the containers are on a docker network <br />
+                    </h5>
+                </div>
+            </div>
+            <hr />
+            <div style="display: flex; gap: 20px;">
+                <div style="flex: 1;">
+                    <img src="assets/images/cto_reimg_mult_app-06.png" alt="Reimagine-multiple apps on server" width="640" height="360">
+                </div>
+                <div style="flex: 1;">
+                    <h5>
+                        Create docker images for all the apps <br />
+                        Locks in the language and package version <br />
+                        Web hosting platform can’t complain about language version <br />
+                        Each app can be its own version and LANGUAGE <br />
+                        Create docker network of containers <br />
+                        Deploy the network with NGINX router <br />
+                        NGINX router can be setup for rate limiting <br />
+                        NGINX router can handle one SSL certificate for all the apps <br />
+                        NGINX cane be “good” security against hackers <br />
+                    </h5>
+                </div>
+            </div>
+            <hr />
+            <div style="display: flex; gap: 20px;">
+                <div style="flex: 1;">
+                    <img src="assets/images/cto_reimg_mult_app-07.png" alt="Reimagine-multiple apps on server" width="640" height="360">
+                </div>
+                <div style="flex: 1;">
+                    <h5>
+                        Outcome
+                    </h5>
+                </div>
+            </div>
+            <hr />
+            <div style="display: flex; gap: 20px;">
+                <div style="flex: 1;">
+                    <img src="assets/images/cto_reimg_mult_app-08.png" alt="Reimagine-multiple apps on server" width="640" height="360">
+                </div>
+                <div style="flex: 1;">
+                    <h5>
+                        Project allows all of the apps to keep running <br />
+                        Can keep adding apps by adding containers <br />
+                        One fixed price for all the apps <br />
+                        The more apps that are hosted, the less cost per app it becomes <br />
+                    </h5>
+                </div>
+            </div>
+            <hr />
+            <div style="display: flex; gap: 20px;">
+                <div style="flex: 1;">
+                    <img src="assets/images/cto_reimg_mult_app-09.png" alt="Reimagine-multiple apps on server" width="640" height="360">
+                </div>
+                <div style="flex: 1;">
+                    <h5>
+                        Lessons Learned
+                    </h5>
+                </div>
+            </div>
+            <hr />
+            <div style="display: flex; gap: 20px;">
+                <div style="flex: 1;">
+                    <img src="assets/images/cto_reimg_mult_app-10.png" alt="Reimagine-multiple apps on server" width="640" height="360">
+                </div>
+                <div style="flex: 1;">
+                    <h5>
+                        Docker containers are ideal for deployment <br />
+                        Each app is in it’s own container <br />
+                        Administering the network is easy as can view each docker by name <br />
+                        Fixed pricing for hosting all apps is loved by management especially accounting <br />
+                    </h5>
+                </div>
+            </div>
+            <hr />
+            <div style="display: flex; gap: 20px;">
+                <div style="flex: 1;">
+                    <img src="assets/images/cto_reimg_mult_app-11.png" alt="Reimagine-multiple apps on server" width="640" height="360">
+                </div>
+                <div style="flex: 1;">
+                    <h5>
+                        Thank-You
+                    </h5>
+                </div>
+            </div>
+            <hr />
         </section>
     </div>
 
