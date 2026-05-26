@@ -1,0 +1,5 @@
+docker container rm bio
+docker rmi richbu/img-bio:latest
+docker buildx build --platform=linux/amd64 -t richbu/img-bio:latest -f Dockerfile-bio .
+docker tag img-bio richbu/img-bio:latest
+docker push richbu/img-bio:latest
