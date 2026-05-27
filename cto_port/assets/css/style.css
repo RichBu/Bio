@@ -23,6 +23,12 @@ body {
     clear: both;
 }
 
+.container-head {
+    width: 100%; 
+    overflow-x: auto; 
+    display: flex;
+}
+
 .container-examples {
     padding-top: 100px;
 }
@@ -93,11 +99,14 @@ hr {
     position: fixed;
     z-index: 99;
     width: 100%;
+    height: 85px;
     margin: 0 0 30px;
-    overflow: auto;
+    overflow-x: clip;
+    overflow-y: clip;
     color: #FFFFFF;
     background: #130C3B;
     border-bottom: 4px solid #811FF7;
+    white-space: nowrap;
 }
 
 #masthead-ex {
@@ -105,7 +114,8 @@ hr {
     z-index: 99;
     width: 100%;
     margin: 0 0 5px;
-    overflow: auto;
+    overflow-x: auto;
+    overflow-y: clip;
     color: #FFFFFF;
     background: #130C3B;
     border-bottom: 4px solid #811FF7;
@@ -123,6 +133,10 @@ hr {
     text-align: center;
     text-decoration: none;
     background: #130C3B;
+}
+
+#nav-logo {
+    width: 10%;
 }
 
 .bttn_click {
@@ -166,6 +180,9 @@ hr {
 nav {
     float: right;
     margin-top: 25px;
+    white-space: nowrap;
+    overflow-x: auto;
+    margin-left: auto;
 }
 
 nav a {
@@ -561,8 +578,54 @@ input[type=submit] {
     display: inline-block;
 }
 
+/* Slide summaries */
+.slide-summary {
+    display: block;
+    flex: 1;
+}
+
+#warn-width {
+    display: none;
+}
+
+.warning {
+    margin-bottom: 5px;
+}
+
+.warning-content {
+    max-width: 80%;
+}
+
+.warning-content strong {
+    font-size: 1.0rem;
+    color:greenyellow;
+}
+
+.warning-content p {
+    display: inline;
+    margin-left: 5px;
+    margin-bottom: 5px;
+    font-size: 1.0rem;
+    color:lightgreen;
+}
+
 
 /* media queries to add responsiveness without using Bootstrap  */
+
+/* warning about the width */
+@media screen and (max-width:870px) {
+    #warn-width {
+        display: block;
+    }
+}
+
+/* slide summaries turn off when gets narrow */
+@media screen and (max-width:780px) {
+    .slide-summary {
+        display: none;
+    }
+}
+
 
 @media screen and (max-width:968px) {
     .container {
