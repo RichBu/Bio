@@ -315,6 +315,7 @@ h3,
     padding: 5px;
     margin: 0 0 40px;
     background: #130C3B;
+    /* turned off with @media */
     border: 1px solid #811FF7;
 }
 
@@ -636,6 +637,13 @@ input[type=submit] {
     }
     .body {
         /* no changes for now */
+    }
+}
+
+@media screen and (max-width:700px) {
+    /* smaller screen size no border */
+    #cto-summary {
+        border: none;
     }
 }
 

@@ -45,7 +45,13 @@
         </div>
     </header>
 
-    <div class="container container-examples">
+    <div id="main-container" class="container container-examples">
+        <div id="warn-width" class="warning" >
+            <div class="warning-content">
+                ⚠️ <strong> Screen too narrow</strong> <p>best viewed in landscape or larger window</p>
+            </div>
+        </div>
+
         <section class="fullcto-section-examples">
             <div id="examplelinks">
                 <a href="reimagine.html" title="Explanation of reimagine">Explanation</a>
@@ -82,13 +88,13 @@
             <div id="quicklinks">
                 <h4 style="line-height: 115%;">Timestamp</h4>
                 <a class="qklink" data-link-num="1" data-movie-time = "0.0"  href="#">0:00 - Start</a>
-                <a class="qklink" data-link-num="2" data-movie-time = "0.0"  href="#">Problem</a>
-                <a class="qklink" data-link-num="3" data-movie-time = "1.0"  href="#">Reimagine</a>
-                <a class="qklink" data-link-num="4" data-movie-time = "3.0"  href="#">OutCome</a>
-                <a class="qklink" data-link-num="5" data-movie-time = "4.0"  href="#">Lessons</a>
+                <a class="qklink" data-link-num="2" data-movie-time = "39.0"  href="#">Problem</a>
+                <a class="qklink" data-link-num="3" data-movie-time = "121.0"  href="#">Reimagine</a>
+                <a class="qklink" data-link-num="4" data-movie-time = "611.0"  href="#">OutCome</a>
+                <a class="qklink" data-link-num="5" data-movie-time = "651.0"  href="#">Lessons</a>
             </div>
         </section>
-        <section class="fullcto-section">
+        <section  id="cto-summary" class="fullcto-section">
             <h2 style="line-height: 115%;">
                 Summary of Video:  <br/><br/>
             </h2>            
@@ -96,7 +102,7 @@
                 <div style="flex: 1;">
                     <img src="assets/images/cto_reimg_cnc_mach-01.png" alt="Reimagine-cnc measurement" width="640" height="360">
                 </div>
-                <div style="flex: 1;">
+                <div class="slide-summary">
                     <h5>
                         CNC Machine & measurement
                     </h5>
@@ -107,7 +113,7 @@
                 <div style="flex: 1;">
                     <img src="assets/images/cto_reimg_cnc_mach-02.png" alt="Reimagine-cnc measurement" width="640" height="360">
                 </div>
-                <div style="flex: 1;">
+                <div class="slide-summary">
                     <h5>
                         Problem Statement
                     </h5>
@@ -118,7 +124,7 @@
                 <div style="flex: 1;">
                     <img src="assets/images/cto_reimg_cnc_mach-03.png" alt="Reimagine-cnc measurement" width="640" height="360">
                 </div>
-                <div style="flex: 1;">
+                <div class="slide-summary">
                     <h5>
                         Problem - Statement <br />
                         Machined block with machined holes <br />
@@ -148,7 +154,7 @@
                 <div style="flex: 1;">
                     <img src="assets/images/cto_reimg_cnc_mach-05.png" alt="Reimagine-cnc measurement" width="640" height="360">
                 </div>
-                <div style="flex: 1;">
+                <div class="slide-summary">
                     <h5>
                         Flow chart "conventional" operation
                         Takes 45 minutes with continuous operator intervention
@@ -160,7 +166,7 @@
                 <div style="flex: 1;">
                     <img src="assets/images/cto_reimg_cnc_mach-06.png" alt="Reimagine-cnc measurement" width="640" height="360">
                 </div>
-                <div style="flex: 1;">
+                <div class="slide-summary">
                     <h5>
                         Had very high tolerance reamed holes (+0.0000 to -0.0002) <br />
                         Multiple holes on the plate <br />
@@ -176,7 +182,7 @@
                 <div style="flex: 1;">
                     <img src="assets/images/cto_reimg_cnc_mach-07.png" alt="Reimagine-cnc measurement" width="640" height="360">
                 </div>
-                <div style="flex: 1;">
+                <div class="slide-summary">
                     <h5>
                         Required user to use graphical, manual screen for each hole <br />
                         _ have to insert probe <br />
@@ -192,7 +198,7 @@
                 <div style="flex: 1;">
                     <img src="assets/images/cto_reimg_cnc_mach-08.png" alt="Reimagine-cnc measurement" width="640" height="360">
                 </div>
-                <div style="flex: 1;">
+                <div class="slide-summary">
                     <h5>
                         Reimagine
                     </h5>
@@ -203,7 +209,7 @@
                 <div style="flex: 1;">
                     <img src="assets/images/cto_reimg_cnc_mach-09.png" alt="Reimagine-cnc measurement" width="640" height="360">
                 </div>
-                <div style="flex: 1;">
+                <div class="slide-summary">
                     <h5>
                         Reimagine - Design <br />
                         Hacked the HAAS machine code <br />
@@ -219,7 +225,7 @@
                 <div style="flex: 1;">
                     <img src="assets/images/cto_reimg_cnc_mach-10.png" alt="Reimagine-cnc measurement" width="640" height="360">
                 </div>
-                <div style="flex: 1;">
+                <div class="slide-summary">
                     <h5>
                         Can view at: <br />
                         <br />
@@ -232,7 +238,7 @@
                 <div style="flex: 1;">
                     <img src="assets/images/cto_reimg_cnc_mach-11.png" alt="Reimagine-cnc measurement" width="640" height="360">
                 </div>
-                <div style="flex: 1;">
+                <div class="slide-summary">
                     <h5>
                         Taking to much time to set up the plates <br />
                         Requires a skilled operator who knows how to set coordinates <br />
@@ -249,7 +255,7 @@
                 <div style="flex: 1;">
                     <img src="assets/images/cto_reimg_cnc_mach-12.png" alt="Reimagine-cnc measurement" width="640" height="360">
                 </div>
-                <div style="flex: 1;">
+                <div class="slide-summary">
                     <h5>
                         Outcome
                     </h5>
@@ -260,7 +266,7 @@
                 <div style="flex: 1;">
                     <img src="assets/images/cto_reimg_cnc_mach-13.png" alt="Reimagine-cnc measurement" width="640" height="360">
                 </div>
-                <div style="flex: 1;">
+                <div class="slide-summary">
                     <h5>
                         Plates were machined in record time 45 minutes per plate versus 5 minutes <br />
                         _ simple operator was able to run <br />
@@ -276,7 +282,7 @@
                 <div style="flex: 1;">
                     <img src="assets/images/cto_reimg_cnc_mach-14.png" alt="Reimagine-cnc measurement" width="640" height="360">
                 </div>
-                <div style="flex: 1;">
+                <div class="slide-summary">
                     <h5>
                         Lessons Learned
                     </h5>
@@ -287,7 +293,7 @@
                 <div style="flex: 1;">
                     <img src="assets/images/cto_reimg_cnc_mach-15.png" alt="Reimagine-cnc measurement" width="640" height="360">
                 </div>
-                <div style="flex: 1;">
+                <div class="slide-summary">
                     <h5>
                         QC department wanted reports from measurement <br />
                         Ended up using probing routines to mimic CMM <br />
@@ -299,7 +305,7 @@
                 <div style="flex: 1;">
                     <img src="assets/images/cto_reimg_cnc_mach-16.png" alt="Reimagine-cnc measurement" width="640" height="360">
                 </div>
-                <div style="flex: 1;">
+                <div class="slide-summary">
                     <h5>
                         Thank-You
                     </h5>

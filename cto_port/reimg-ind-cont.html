@@ -45,7 +45,13 @@
         </div>
     </header>
 
-    <div class="container container-examples">
+    <div id="main-container" class="container container-examples">
+        <div id="warn-width" class="warning" >
+            <div class="warning-content">
+                ⚠️ <strong> Screen too narrow</strong> <p>best viewed in landscape or larger window</p>
+            </div>
+        </div>
+
         <section class="fullcto-section-examples">
             <div id="examplelinks">
                 <a href="reimagine.html" title="Explanation of reimagine">Explanation</a>
@@ -82,13 +88,13 @@
             <div id="quicklinks">
                 <h4 style="line-height: 115%;">Timestamp</h4>
                 <a class="qklink" data-link-num="1" data-movie-time = "0.0"  href="#">0:00 - Start</a>
-                <a class="qklink" data-link-num="2" data-movie-time = "0.0"  href="#">Problem</a>
-                <a class="qklink" data-link-num="3" data-movie-time = "1.0"  href="#">Reimagine</a>
-                <a class="qklink" data-link-num="4" data-movie-time = "3.0"  href="#">OutCome</a>
-                <a class="qklink" data-link-num="5" data-movie-time = "4.0"  href="#">Lessons</a>
+                <a class="qklink" data-link-num="2" data-movie-time = "9.0"  href="#">Problem</a>
+                <a class="qklink" data-link-num="3" data-movie-time = "150.5"  href="#">Reimagine</a>
+                <a class="qklink" data-link-num="4" data-movie-time = "528.5"  href="#">OutCome</a>
+                <a class="qklink" data-link-num="5" data-movie-time = "628.5"  href="#">Lessons</a>
             </div>
         </section>
-        <section class="fullcto-section">
+        <section id="cto-summary" class="fullcto-section">
             <h2 style="line-height: 115%;">
                 Summary of Video:  <br/><br/>
             </h2>            
@@ -96,7 +102,7 @@
                 <div style="flex: 1;">
                     <img src="assets/images/cto_reimg_indust_cont-01.png" alt="Reimagine-industrial controller" width="640" height="360">
                 </div>
-                <div style="flex: 1;">
+                <div class="slide-summary">
                     <h5>
                         Reimagine industrial controller
                     </h5>
@@ -107,7 +113,7 @@
                 <div style="flex: 1;">
                     <img src="assets/images/cto_reimg_indust_cont-02.png" alt="Reimagine-industrial controller" width="640" height="360">
                 </div>
-                <div style="flex: 1;">
+                <div class="slide-summary">
                     <h5>
                         Problem statement
                     </h5>
@@ -118,7 +124,7 @@
                 <div style="flex: 1;">
                     <img src="assets/images/cto_reimg_indust_cont-03.png" alt="Reimagine-industrial controller" width="640" height="360">
                 </div>
-                <div style="flex: 1;">
+                <div class="slide-summary">
                     <h5>
                         Problem statement - Controller with conventional HDMI outputs
                     </h5>
@@ -129,7 +135,7 @@
                 <div style="flex: 1;">
                     <img src="assets/images/cto_reimg_indust_cont-04.png" alt="Reimagine-industrial controller" width="640" height="360">
                 </div>
-                <div style="flex: 1;">
+                <div class="slide-summary">
                     <h5>
                         Problem statement - production line <br />
                         Large machine and user has to keep running back and forth <br />
@@ -141,7 +147,7 @@
                 <div style="flex: 1;">
                     <img src="assets/images/cto_reimg_indust_cont-05.png" alt="Reimagine-industrial controller" width="640" height="360">
                 </div>
-                <div style="flex: 1;">
+                <div class="slide-summary">
                     <h5>
                         Production equipment/line is large <br />
                         No ideal position for a single monitor <br />
@@ -155,7 +161,7 @@
                 <div style="flex: 1;">
                     <img src="assets/images/cto_reimg_indust_cont-06.png" alt="Reimagine-industrial controller" width="640" height="360">
                 </div>
-                <div style="flex: 1;">
+                <div class="slide-summary">
                     <h5>
                         Reimagine
                     </h5>
@@ -166,7 +172,7 @@
                 <div style="flex: 1;">
                     <img src="assets/images/cto_reimg_indust_cont-07.png" alt="Reimagine-industrial controller" width="640" height="360">
                 </div>
-                <div style="flex: 1;">
+                <div class="slide-summary">
                     <h5>
                         Reimagine - redesign<br />
                         Use HTML output <br />
@@ -180,7 +186,7 @@
                 <div style="flex: 1;">
                     <img src="assets/images/cto_reimg_indust_cont-08.png" alt="Reimagine-industrial controller" width="640" height="360">
                 </div>
-                <div style="flex: 1;">
+                <div class="slide-summary">
                     <h5>
                         If add firewall and logging can <br />
                         track operator usage <br />
@@ -195,7 +201,7 @@
                 <div style="flex: 1;">
                     <img src="assets/images/cto_reimg_indust_cont-09.png" alt="Reimagine-industrial controller" width="640" height="360">
                 </div>
-                <div style="flex: 1;">
+                <div class="slide-summary">
                     <h5>
                         Reimagine of the entire machine <br />
                         Now operator can walk around with tablet <br />
@@ -207,7 +213,7 @@
                 <div style="flex: 1;">
                     <img src="assets/images/cto_reimg_indust_cont-10.png" alt="Reimagine-industrial controller" width="640" height="360">
                 </div>
-                <div style="flex: 1;">
+                <div class="slide-summary">
                     <h5>
                         Make the controller be control software + web server <br />
                         Only need one “monitor”, the tablet <br />
@@ -235,7 +241,7 @@
                 <div style="flex: 1;">
                     <img src="assets/images/cto_reimg_indust_cont-11.png" alt="Reimagine-industrial controller" width="640" height="360">
                 </div>
-                <div style="flex: 1;">
+                <div class="slide-summary">
                     <h5>
                         Outcome
                     </h5>
@@ -246,7 +252,7 @@
                 <div style="flex: 1;">
                     <img src="assets/images/cto_reimg_indust_cont-12.png" alt="Reimagine-industrial controller" width="640" height="360">
                 </div>
-                <div style="flex: 1;">
+                <div class="slide-summary">
                     <h5>
                         Reduced wiring and customization costs <br />
                         Did not need to write custom software to drive the 3 panels <br />
@@ -261,7 +267,7 @@
                 <div style="flex: 1;">
                     <img src="assets/images/cto_reimg_indust_cont-13.png" alt="Reimagine-industrial controller" width="640" height="360">
                 </div>
-                <div style="flex: 1;">
+                <div class="slide-summary">
                     <h5>
                         Lessons Learned
                     </h5>
@@ -272,7 +278,7 @@
                 <div style="flex: 1;">
                     <img src="assets/images/cto_reimg_indust_cont-14.png" alt="Reimagine-industrial controller" width="640" height="360">
                 </div>
-                <div style="flex: 1;">
+                <div class="slide-summary">
                     <h5>
                         HTML output allowed for moveable tablet <br />
                         Technicians LOVE it as they can make adjustments next to the machine <br />
@@ -286,7 +292,7 @@
                 <div style="flex: 1;">
                     <img src="assets/images/cto_reimg_indust_cont-15.png" alt="Reimagine-industrial controller" width="640" height="360">
                 </div>
-                <div style="flex: 1;">
+                <div class="slide-summary">
                     <h5>
                         Thank-You
                     </h5>
